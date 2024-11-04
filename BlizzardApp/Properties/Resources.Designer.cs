@@ -63,26 +63,6 @@ namespace BlizzardApp.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap _220px_Blizzard_Entertainment_Logo_2015_svg__1_ {
-            get {
-                object obj = ResourceManager.GetObject("220px-Blizzard_Entertainment_Logo_2015.svg (1)", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap blizzard_png {
-            get {
-                object obj = ResourceManager.GetObject("blizzard.png", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap blizzardLogo {
             get {
                 object obj = ResourceManager.GetObject("blizzardLogo", resourceCulture);
@@ -93,9 +73,9 @@ namespace BlizzardApp.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap D2TTHKAPW9BH1534981363136 {
+        internal static System.Drawing.Bitmap blizzardLogo1 {
             get {
-                object obj = ResourceManager.GetObject("D2TTHKAPW9BH1534981363136", resourceCulture);
+                object obj = ResourceManager.GetObject("blizzardLogo1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -103,10 +83,59 @@ namespace BlizzardApp.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap EJRUQ2OU4NN2TOALAB637TBPWQ {
+        internal static System.Drawing.Bitmap blizzardLogo2 {
             get {
-                object obj = ResourceManager.GetObject("EJRUQ2OU4NN2TOALAB637TBPWQ", resourceCulture);
+                object obj = ResourceManager.GetObject("blizzardLogo2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap fondo {
+            get {
+                object obj = ResourceManager.GetObject("fondo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap juego1 {
+            get {
+                object obj = ResourceManager.GetObject("juego1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap juego2 {
+            get {
+                object obj = ResourceManager.GetObject("juego2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap juego3 {
+            get {
+                object obj = ResourceManager.GetObject("juego3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a .
+        /// </summary>
+        internal static string Logo_Blizzard {
+            get {
+                return ResourceManager.GetString("Logo Blizzard", resourceCulture);
             }
         }
     }
