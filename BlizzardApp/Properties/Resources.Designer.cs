@@ -93,6 +93,16 @@ namespace BlizzardApp.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap CoD {
+            get {
+                object obj = ResourceManager.GetObject("CoD", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap fondo {
             get {
                 object obj = ResourceManager.GetObject("fondo", resourceCulture);
@@ -136,6 +146,26 @@ namespace BlizzardApp.Properties {
         internal static string Logo_Blizzard {
             get {
                 return ResourceManager.GetString("Logo Blizzard", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap starcraft_remastered_portada {
+            get {
+                object obj = ResourceManager.GetObject("starcraft-remastered-portada", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap StarWarsOutlaws {
+            get {
+                object obj = ResourceManager.GetObject("StarWarsOutlaws", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
     }

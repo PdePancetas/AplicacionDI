@@ -87,6 +87,9 @@
     <None Include="Resources\juego2.jpg" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\starcraft-remastered-portada.jpg" />
+    <None Include="Resources\StarWarsOutlaws.jpg" />
+    <None Include="Resources\CoD.jpg" />
     <Content Include="Resources\juego1.jpg" />
     <None Include="Resources\juego3.jpg" />
   </ItemGroup>
